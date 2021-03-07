@@ -1,5 +1,4 @@
 /*
-
 !.gitignore
 !server/
 !doorstop_config.ini
@@ -7,3 +6,4 @@
 !BepInEx/
 !unstripped_corlib/
 !doorstop_libs/
+**/node_modules
