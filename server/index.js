@@ -19,21 +19,21 @@ app.post(`/webhook`, async (req, res) => {
 			return;
 		}
 		console.log(`stdout: ${stdout}`);
+		exec(
+			`cd "C:\\Program Files (x86)\\Steam\\steamapps\\common\\TES Server - Modded" & "TES Server - Modded.bat"`,
+			(error, stdout, stderr) => {
+				if (error) {
+					console.log(`error: ${error.message}`);
+					return;
+				}
+				if (stderr) {
+					console.log(`stderr: ${stderr}`);
+					return;
+				}
+				console.log(`stdout: ${stdout}`);
+			}
+		);
 	});
-	exec(
-		`cd "C:\\Program Files (x86)\\Steam\\steamapps\\common\\TES Server - Modded" & "TES Server - Modded.bat"`,
-		(error, stdout, stderr) => {
-			if (error) {
-				console.log(`error: ${error.message}`);
-				return;
-			}
-			if (stderr) {
-				console.log(`stderr: ${stderr}`);
-				return;
-			}
-			console.log(`stdout: ${stdout}`);
-		}
-	);
 	res.json("Success!");
 }),
 	(server = require("http").createServer(app));
