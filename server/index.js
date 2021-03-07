@@ -1,14 +1,12 @@
 const bodyParser = require("body-parser");
 const path = require("path");
-const app = express();
 const cors = require("cors");
 app.use(bodyParser.json());
 
 app.use(cors());
 
 app.post(`/webhook`, async (req, res) => {
-	const result = await Oracle.OATH2(req);
-	res.redirect(result);
+	res.json("Success!");
 }),
 	(server = require("http").createServer(app));
 server.listen(config.port, () =>
