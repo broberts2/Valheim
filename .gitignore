@@ -4,6 +4,6 @@
 !/server
 !doorstop_config.ini
 !winhttp.dll
-!BepInEx
-!unstripped_corlib
-!doorstop_libs
+!/BepInEx
+!/unstripped_corlib
+!/doorstop_libs
