@@ -19,7 +19,7 @@ app.post(`/webhook`, async (req, res) => {
 				console.log(`stderr: ${stderr}`);
 			}
 			console.log(`stdout: ${stdout}`);
-			resolve(`stdout: ${stdout}`);
+			setTimeout(() => resolve(`stdout: ${stdout}`), 8000);
 		});
 	});
 	exec(
