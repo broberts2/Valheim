@@ -17,7 +17,6 @@ app.post(`/webhook`, async (req, res) => {
 			}
 			if (stderr) {
 				console.log(`stderr: ${stderr}`);
-				reject(stderr);
 			}
 			console.log(`stdout: ${stdout}`);
 			resolve(`stdout: ${stdout}`);
