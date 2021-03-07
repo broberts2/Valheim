@@ -2,7 +2,6 @@
 !.gitignore
 !server/
 !doorstop_config.ini
-!test
 !winhttp.dll
 !BepInEx/
 !unstripped_corlib/
