@@ -21,7 +21,7 @@ app.post(`/webhook`, async (req, res) => {
 		console.log(`stdout: ${stdout}`);
 	});
 	exec(
-		`start "C:\Program Files (x86)\Steam\steamapps\common\TES Server - Modded\TES Server - Modded.bat"`,
+		`cd C:\Program Files (x86)\Steam\steamapps\common\TES Server - Modded & TES Server - Modded.bat"`,
 		(error, stdout, stderr) => {
 			if (error) {
 				console.log(`error: ${error.message}`);
