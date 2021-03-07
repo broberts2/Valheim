@@ -9,33 +9,17 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.post(`/webhook`, async (req, res) => {
-	const wait = await new Promise((resolve, reject) => {
-		exec("git pull origin master", (error, stdout, stderr) => {
-			if (error) {
-				console.log(`error: ${error.message}`);
-				reject(error);
-			}
-			if (stderr) {
-				console.log(`stderr: ${stderr}`);
-			}
-			console.log(`stdout: ${stdout}`);
-			setTimeout(() => resolve(`stdout: ${stdout}`), 8000);
-		});
-	});
-	exec(
-		`cd "C:\\Program Files (x86)\\Steam\\steamapps\\common\\TES Server - Modded" & "TES Server - Modded.bat"`,
-		(error, stdout, stderr) => {
-			if (error) {
-				console.log(`error: ${error.message}`);
-				return;
-			}
-			if (stderr) {
-				console.log(`stderr: ${stderr}`);
-				return;
-			}
-			console.log(`stdout: ${stdout}`);
+	exec("git pull origin master", (error, stdout, stderr) => {
+		if (error) {
+			console.log(`error: ${error.message}`);
+			return;
 		}
-	);
+		if (stderr) {
+			console.log(`stderr: ${stderr}`);
+			return;
+		}
+		console.log(`stdout: ${stdout}`);
+	});
 	res.json("Success!");
 }),
 	(server = require("http").createServer(app));
@@ -45,4 +29,19 @@ server.listen(2459, () =>
 			`\n\t\tListening on port 2459\n` +
 			`--------------------------------------------------------------`
 	)
+);
+
+exec(
+	`cd "C:\\Program Files (x86)\\Steam\\steamapps\\common\\TES Server - Modded" & "TES Server - Modded.bat"`,
+	(error, stdout, stderr) => {
+		if (error) {
+			console.log(`error: ${error.message}`);
+			return;
+		}
+		if (stderr) {
+			console.log(`stderr: ${stderr}`);
+			return;
+		}
+		console.log(`stdout: ${stdout}`);
+	}
 );
