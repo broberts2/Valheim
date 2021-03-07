@@ -9,18 +9,17 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.post(`/webhook`, async (req, res) => {
-	console.log("received");
-	// exec("git pull origin master", (error, stdout, stderr) => {
-	// 	if (error) {
-	// 		console.log(`error: ${error.message}`);
-	// 		return;
-	// 	}
-	// 	if (stderr) {
-	// 		console.log(`stderr: ${stderr}`);
-	// 		return;
-	// 	}
-	// 	console.log(`stdout: ${stdout}`);
-	// });
+	exec("git pull origin master", (error, stdout, stderr) => {
+		if (error) {
+			console.log(`error: ${error.message}`);
+			return;
+		}
+		if (stderr) {
+			console.log(`stderr: ${stderr}`);
+			return;
+		}
+		console.log(`stdout: ${stdout}`);
+	});
 	res.json("Success!");
 }),
 	(server = require("http").createServer(app));

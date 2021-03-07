@@ -4,7 +4,6 @@
 !doorstop_config.ini
 !winhttp.dll
 !BepInEx/
-!test
 !unstripped_corlib/
 !doorstop_libs/
 **/node_modules
