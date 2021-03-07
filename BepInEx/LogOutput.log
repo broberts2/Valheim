@@ -1,0 +1,747 @@
+﻿[Message:   BepInEx] BepInEx 5.4.8.0 - valheim_server
+[Info   :   BepInEx] Running under Unity v2019.4.20.7197120
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] 1 patcher plugin loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 1 plugins to load
+[Info   :   BepInEx] Loading [Valheim Plus 0.9.4]
+[Info   :Valheim Plus] Trying to load the configuration file
+[Info   : Unity Log] Loading config section AdvancedBuildingMode
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section AdvancedEditingMode
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Beehive
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Building
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Inventory
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Items
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Fermenter
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Fireplace
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Food
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Furnace
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Hotkeys
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Kiln
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Map
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Player
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Server
+[Info   : Unity Log]  Loading key maxPlayers
+[Info   : Unity Log]  Loading key disableServerPassword
+[Info   : Unity Log]  Loading key enforceMod
+[Info   : Unity Log]  Loading key serverSyncsConfig
+[Info   : Unity Log]  Loading key dataRate
+[Info   : Unity Log] Loading config section Stamina
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section StaminaUsage
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Workbench
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Time
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Ward
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section StructuralIntegrity
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Hud
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Experience
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Camera
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Game
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Wagon
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Gathering
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Durability
+[Info   : Unity Log]  Section not enabled
+[Info   : Unity Log] Loading config section Armor
+[Info   : Unity Log]  Section not enabled
+[Info   :Valheim Plus] Configuration file loaded succesfully.
+[Info   :Valheim Plus] ValheimPlus [0.9.4] is up to date.
+[Message:   BepInEx] Chainloader startup complete
+[Info   : Unity Log] 03/06/2021 19:49:09: Starting to load scene:start
+
+[Warning: Unity Log] HDR Render Texture not supported, disabling HDR on reflection probe.
+[Warning: Unity Log] HDR Render Texture not supported, disabling HDR on reflection probe.
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu).
+[Warning: Unity Log] HDR Render Texture not supported, disabling HDR on reflection probe.
+[Info   : Unity Log] 03/06/2021 19:49:17: Initializing world generator seed: ( 0 )   menu:True  worldgen version:1
+
+[Info   : Unity Log] 03/06/2021 19:49:17: Using mountain distance: 1000
+
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3@0.9.4
+[Info   : Unity Log] 03/06/2021 19:49:17: Render threading mode:SingleThreaded
+
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3@0.9.4
+[Info   : Unity Log] 03/06/2021 19:49:17: Get create world TEST
+
+[Info   : Unity Log] 03/06/2021 19:49:17: Using environment steamid 892970
+
+[Info   : Unity Log] 03/06/2021 19:49:17: Using steam APPID:892970
+
+[Info   : Unity Log] 03/06/2021 19:49:17: Server ID 90071992547409920
+
+[Info   : Unity Log] 03/06/2021 19:49:17: Authentication:k_ESteamNetworkingAvailability_Waiting
+
+[Info   : Unity Log] 03/06/2021 19:49:17: Steam game server initialized
+
+[Warning: Unity Log] 03/06/2021 19:49:17: Missing audio clip in music respawn
+
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3@0.9.4
+[Info   : Unity Log] 03/06/2021 19:49:18: Loaded localization English
+
+[Warning: Unity Log] HDR Render Texture not supported, disabling HDR on reflection probe.
+[Warning: Unity Log] HDR Render Texture not supported, disabling HDR on reflection probe.
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3@0.9.4
+[Info   : Unity Log] 03/06/2021 19:49:18: Zonesystem Awake 1327
+
+[Info   : Unity Log] 03/06/2021 19:49:18: DungeonDB Awake 1327
+
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3@0.9.4
+[Info   : Unity Log] 03/06/2021 19:49:18: Registering lobby
+
+[Info   : Unity Log] 03/06/2021 19:49:18: Initializing world generator seed:LlWHD8wWU0 ( 587138894 )   menu:False  worldgen version:1
+
+[Info   : Unity Log] 03/06/2021 19:49:18: Using mountain distance: 1000
+
+[Info   : Unity Log] 03/06/2021 19:49:18: Found 597 mountain points
+
+[Info   : Unity Log] 03/06/2021 19:49:18: Remaining mountains:75
+
+[Info   : Unity Log] 03/06/2021 19:49:18: Calc time 22.0043 ms
+
+[Info   : Unity Log] 03/06/2021 19:49:18: Found 8142 lake points
+
+[Info   : Unity Log] 03/06/2021 19:49:20: Remaining lakes:123
+
+[Info   : Unity Log] 03/06/2021 19:49:20: Calc time 1845.4157 ms
+
+[Info   : Unity Log] 03/06/2021 19:49:20: Rivers:172
+
+[Info   : Unity Log] 03/06/2021 19:49:20: River buckets 16466
+
+[Info   : Unity Log] 03/06/2021 19:49:20: River render time 255.0567 ms
+
+[Info   : Unity Log] 03/06/2021 19:49:20: River Calc time 267.0601 ms
+
+[Info   : Unity Log] 03/06/2021 19:49:21: River buckets 24774
+
+[Info   : Unity Log] 03/06/2021 19:49:21: River render time 387.0874 ms
+
+[Info   : Unity Log] 03/06/2021 19:49:21: Placed 1895 streams
+
+[Info   : Unity Log] 03/06/2021 19:49:21: Stream Calc time 901.2038 ms
+
+[Info   : Unity Log] 03/06/2021 19:49:21: Load world TEST
+
+[Info   : Unity Log] 03/06/2021 19:49:21: Loading 9373 zdos , my id 2971451569 data version:26
+
+[Info   : Unity Log] 03/06/2021 19:49:21: Loaded 409 dead zdos
+
+[Info   : Unity Log] 03/06/2021 19:49:21: Removed 0 OLD generated ZDOS
+
+[Info   : Unity Log] 03/06/2021 19:49:21: Loaded 7084 locations
+
+[Info   : Unity Log] 03/06/2021 19:49:21: Audioman already exist, destroying self
+
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3@0.9.4
+[Info   : Unity Log] 03/06/2021 19:49:24: Zonesystem Start 1327
+
+[Info   : Unity Log] 03/06/2021 19:49:25: DungeonDB Start 1327
+
+[Info   : Unity Log] 03/06/2021 19:49:25: Game server connected
+
+[Info   : Unity Log] 03/06/2021 19:50:51: Got status changed msg k_ESteamNetworkingConnectionState_Connecting
+
+[Info   : Unity Log] 03/06/2021 19:50:51: New connection
+
+[Info   : Unity Log] 03/06/2021 19:50:51: Accepting connection k_EResultOK
+
+[Info   : Unity Log] 03/06/2021 19:50:51: Connecting to Steamworks.SteamNetworkingIdentity
+
+[Info   : Unity Log] 03/06/2021 19:50:51: Got status changed msg k_ESteamNetworkingConnectionState_Connected
+
+[Info   : Unity Log] 03/06/2021 19:50:51: Connected
+
+[Info   : Unity Log] 03/06/2021 19:50:51: Got connection SteamID 76561198026184332
+
+[Info   : Unity Log] 03/06/2021 19:50:51: Got handshake from client 76561198026184332
+
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3@0.9.4
+[Info   : Unity Log] 03/06/2021 19:50:56: VERSION check their:0.147.3  mine:0.147.3@0.9.4
+
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3@0.9.4
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3@0.9.4
+[Info   : Unity Log] 03/06/2021 19:50:56: Peer 76561198026184332 has incompatible version, mine:0.147.3@0.9.4 remote 0.147.3
+
+[Info   : Unity Log] 03/06/2021 19:50:56: RPC_Disconnect 
+
+[Info   : Unity Log] 03/06/2021 19:50:56: Disposing socket
+
+[Info   : Unity Log] 03/06/2021 19:50:56: Closing socket 76561198026184332
+
+[Info   : Unity Log] 03/06/2021 19:50:56:   send queue size:0
+
+[Info   : Unity Log] 03/06/2021 19:50:56: Disposing socket
+
+[Info   : Unity Log] 03/06/2021 19:50:56: Got status changed msg k_ESteamNetworkingConnectionState_ClosedByPeer
+
+[Info   : Unity Log] 03/06/2021 19:50:56: Socket closed by peer Steamworks.SteamNetConnectionStatusChangedCallback_t
+
+[Info   : Unity Log] 03/06/2021 19:50:56: Got status changed msg k_ESteamNetworkingConnectionState_None
+
+[Info   : Unity Log] 03/06/2021 19:53:23: Got status changed msg k_ESteamNetworkingConnectionState_Connecting
+
+[Info   : Unity Log] 03/06/2021 19:53:23: New connection
+
+[Info   : Unity Log] 03/06/2021 19:53:23: Accepting connection k_EResultOK
+
+[Info   : Unity Log] 03/06/2021 19:53:23: Connecting to Steamworks.SteamNetworkingIdentity
+
+[Info   : Unity Log] 03/06/2021 19:53:23: Got status changed msg k_ESteamNetworkingConnectionState_Connected
+
+[Info   : Unity Log] 03/06/2021 19:53:23: Connected
+
+[Info   : Unity Log] 03/06/2021 19:53:23: Got connection SteamID 76561198026184332
+
+[Info   : Unity Log] 03/06/2021 19:53:23: Got handshake from client 76561198026184332
+
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3@0.9.4
+[Info   : Unity Log] 03/06/2021 19:53:31: VERSION check their:0.147.3@0.9.4  mine:0.147.3@0.9.4
+
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3@0.9.4
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3
+[Info   : Unity Log] Version generator started.
+[Info   : Unity Log] Version generated with enforced mod : 0.147.3@0.9.4
+[Info   : Unity Log] 03/06/2021 19:53:31: Server: New peer connected,sending global keys
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: [AdvancedBuildingMode]
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: enabled=false
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: enterAdvancedBuildingMode=F1
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: exitAdvancedBuildingMode=F3
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: copyObjectRotation=Keypad7
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: pasteObjectRotation=Keypad8
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: [AdvancedEditingMode]
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: enabled=false
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: enterAdvancedEditingMode=Keypad0
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: resetAdvancedEditingMode=F7
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: abortAndExitAdvancedEditingMode=F8
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: confirmPlacementOfAdvancedEditingMode=KeypadEnter
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: copyObjectRotation=Keypad7
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: pasteObjectRotation=Keypad8
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: [Beehive]
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: enabled=false
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: honeyProductionSpeed=1200
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: maximumHoneyPerBeehive=4
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: [Building]
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: enabled=false
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: noInvalidPlacementRestriction=false
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: noWeatherDamage=false
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: maximumPlacementDistance=5
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: [Camera]
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: enabled=false
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: cameraMaximumZoomDistance=6
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: cameraBoatMaximumZoomDistance=6
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: cameraFOV=65
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: [Experience]
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: enabled=false
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: swords=0
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: knives=0
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: clubs=0
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: polearms=0
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: spears=0
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: blocking=0
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: axes=0
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: bows=0
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: fireMagic=0
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: frostMagic=0
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: unarmed=0
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: pickaxes=0
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: woodCutting=0
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: jump=0
+
+[Info   : Unity Log] 03/06/2021 19:53:33: SENTCONFIG: sneak=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: run=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: swim=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: [Fermenter]
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: enabled=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: fermenterDuration=2400
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: fermenterItemsProduced=6
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: showFermenterDuration=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: [Fireplace]
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: enabled=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: onlyTorches=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: [Food]
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: enabled=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: foodDurationMultiplier=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: [Furnace]
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: enabled=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: maximumOre=10
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: maximumCoal=20
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: coalUsedPerProduct=2
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: productionSpeed=30
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: autoDeposit=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: autoDepositRange=10
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: [Game]
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: enabled=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: gameDifficultyDamageScale=0.4
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: gameDifficultyHealthScale=0.4
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: extraPlayerCountNearby=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: setFixedPlayerCountTo=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: difficultyScaleRange=200
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: disablePortals=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: [Hotkeys]
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: enabled=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: rollForwards=F9
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: rollBackwards=F10
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: [Items]
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: enabled=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: noTeleportPrevention=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: baseItemWeightReduction=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: itemStackMultiplier=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: droppedItemOnGroundDurationInSeconds=3600
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: [Hud]
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: enabled=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: showRequiredItems=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: experienceGainedNotifications=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: displayStaminaValue=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: removeDamageFlash=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: [Gathering]
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: enabled=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: dropChance=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: wood=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: stone=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: fineWood=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: coreWood=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: elderBark=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: ironScrap=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: tinOre=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: copperOre=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: silverOre=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: chitin=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: [Durability]
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: enabled=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: axes=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: pickaxes=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: hammer=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: cultivator=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: hoe=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: weapons=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: armor=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: bows=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: shields=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: [Armor]
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: enabled=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: helmets=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: chests=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: legs=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: capes=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: [Kiln]
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: enabled=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: maximumWood=20
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: productionSpeed=30
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: autoDeposit=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: autoDepositRange=10
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: [Map]
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: enabled=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: shareMapProgression=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: exploreRadius=100
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: preventPlayerFromTurningOffPublicPosition=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: [Player]
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: enabled=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: baseMaximumWeight=300
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: baseMegingjordBuff=150
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: baseAutoPickUpRange=2
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: disableCameraShake=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: baseUnarmedDamage=120
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: cropNotifier=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: [Server]
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: enabled=true
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: maxPlayers=10
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: disableServerPassword=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: enforceMod=true
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: serverSyncsConfig=true
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: dataRate=60
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: [Stamina]
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: enabled=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: dodgeStaminaUsage=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: encumberedStaminaDrain=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: jumpStaminaDrain=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: runStaminaDrain=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: sneakStaminaDrain=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: staminaRegen=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: staminaRegenDelay=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: swimStaminaDrain=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: [StaminaUsage]
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: enabled=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: axes=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: blocking=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: bows=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: clubs=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: knives=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: pickaxes=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: polearms=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: spears=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: swords=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: unarmed=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: hammer=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: hoe=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: cultivator=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: [StructuralIntegrity]
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: enabled=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: disableStructuralIntegrity=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: disableDamageToPlayerStructures=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: wood=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: stone=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: iron=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: hardWood=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: [Time]
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: [Ward]
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: enabled=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: wardRange=20
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: [Workbench]
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: enabled=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: workbenchRange=20
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: disableRoofCheck=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: [Wagon]
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: enabled=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: wagonBaseMass=20
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: wagonExtraMassFromItems=0
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: [Inventory]
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: enabled=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: playerInventoryRows=15
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: woodChestColumns=5
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: woodChestRows=2
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: ironChestColumns=8
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: ironChestRows=3
+
+[Info   : Unity Log] 03/06/2021 19:53:34: SENTCONFIG: inventoryFillTopToBottom=false
+
+[Info   : Unity Log] 03/06/2021 19:53:34: VPlus configuration synced to peer #770593217
+
+[Info   : Unity Log] 03/06/2021 19:53:35: Possible events:0
+
+[Info   : Unity Log] 03/06/2021 19:53:49: Got character ZDOID from Jetgorilla : 770593217:2
+
+[Info   : Unity Log] 03/06/2021 19:54:36: Placed locations in zone -2,5  duration 18.0043 ms
+
+[Info   : Unity Log] 03/06/2021 19:54:36: Placed locations in zone -1,5  duration 4.0004 ms
+
+[Info   : Unity Log] 03/06/2021 19:54:36: Placed locations in zone 2,5  duration 1 ms
+
+[Info   : Unity Log] 03/06/2021 19:54:37: Placed locations in zone 5,5  duration 8.0025 ms
+
+[Info   : Unity Log] 03/06/2021 19:56:27: Got status changed msg k_ESteamNetworkingConnectionState_ProblemDetectedLocally
+
+[Info   : Unity Log] 03/06/2021 19:56:27: Got problem 5003:Connection dropped
+
+[Info   : Unity Log] 03/06/2021 19:56:27:   Closing socket 76561198026184332
+
+[Info   : Unity Log] 03/06/2021 19:56:27: Closing socket 76561198026184332
+
+[Info   : Unity Log] 03/06/2021 19:56:27:   send queue size:0
+
+[Info   : Unity Log] 03/06/2021 19:56:27: Got status changed msg k_ESteamNetworkingConnectionState_None
+
+[Info   : Unity Log] 03/06/2021 19:56:27: Destroying abandoned non persistent zdo 770593217:2 owner 770593217
+
+[Info   : Unity Log] 03/06/2021 19:56:27: Destroying abandoned non persistent zdo 770593217:27 owner 770593217
+
+[Info   : Unity Log] 03/06/2021 19:56:27: Destroying abandoned non persistent zdo 770593217:28 owner 770593217
+
+[Info   : Unity Log] 03/06/2021 19:56:27: Destroying abandoned non persistent zdo 770593217:44 owner 770593217
+
+[Info   : Unity Log] 03/06/2021 19:56:27: Destroying abandoned non persistent zdo 770593217:32 owner 770593217
+
+[Info   : Unity Log] 03/06/2021 19:56:27: Destroying abandoned non persistent zdo 770593217:40 owner 770593217
+
+[Info   : Unity Log] 03/06/2021 19:56:27: Destroying abandoned non persistent zdo 770593217:61 owner 770593217
+
+[Info   : Unity Log] 03/06/2021 19:56:27: Destroying abandoned non persistent zdo 770593217:95 owner 770593217
+
+[Info   : Unity Log] 03/06/2021 19:56:27: Destroying abandoned non persistent zdo 770593217:94 owner 770593217
+
+[Info   : Unity Log] 03/06/2021 19:56:27: Destroying abandoned non persistent zdo 770593217:233 owner 770593217
+
+[Info   : Unity Log] 03/06/2021 19:56:27: Destroying abandoned non persistent zdo 770593217:234 owner 770593217
+
+[Info   : Unity Log] 03/06/2021 19:56:27: Disposing socket
+
+[Info   : Unity Log] 03/06/2021 19:56:27: Disposing socket
+
+[Info   : Unity Log] 03/06/2021 19:59:25:  Connections 0 ZDOS:10750  sent:0 recv:0
+
+[Info   : Unity Log] 03/06/2021 20:09:25:  Connections 0 ZDOS:10750  sent:0 recv:0
+
+[Info   : Unity Log] 03/06/2021 20:09:25: clone 11
+
+[Info   : Unity Log] 03/06/2021 20:14:52: Game - OnApplicationQuit
+
+[Info   : Unity Log] 03/06/2021 20:14:52: ZNet Shutdown
+
+[Info   : Unity Log] 03/06/2021 20:14:52: clone 9
+
+[Info   : Unity Log] 03/06/2021 20:14:52: Sending disconnect msg
+
+[Info   : Unity Log] 03/06/2021 20:14:52: Disposing socket
+
+[Info   : Unity Log] 03/06/2021 20:14:52: Stopping listening socket
+
+[Info   : Unity Log] 03/06/2021 20:14:52: Last socket, unregistering callback
+
+[Info   : Unity Log] 03/06/2021 20:14:52: ZSteamSocket  UnregisterGlobalCallbacks, existing sockets:0
+
+[Info   : Unity Log] 03/06/2021 20:14:54: Steam manager on destroy
+
+[Info   : Unity Log] 03/06/2021 20:14:55: ZNet OnDestroy
+
+[Info   : Unity Log] 03/06/2021 20:14:55: Net scene destroyed
+
