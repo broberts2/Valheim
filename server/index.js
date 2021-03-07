@@ -8,6 +8,23 @@ app.use(bodyParser.json());
 
 app.use(cors());
 
+const runValheim = () => {
+	exec(
+		`cd "C:\\Program Files (x86)\\Steam\\steamapps\\common\\TES Server - Modded" & "TES Server - Modded.bat"`,
+		(error, stdout, stderr) => {
+			if (error) {
+				console.log(`error: ${error.message}`);
+				return;
+			}
+			if (stderr) {
+				console.log(`stderr: ${stderr}`);
+				return;
+			}
+			console.log(`stdout: ${stdout}`);
+		}
+	);
+};
+
 app.post(`/webhook`, async (req, res) => {
 	exec("git pull origin master", (error, stdout, stderr) => {
 		if (error) {
@@ -31,17 +48,4 @@ server.listen(2459, () =>
 	)
 );
 
-exec(
-	`cd "C:\\Program Files (x86)\\Steam\\steamapps\\common\\TES Server - Modded" & "TES Server - Modded.bat"`,
-	(error, stdout, stderr) => {
-		if (error) {
-			console.log(`error: ${error.message}`);
-			return;
-		}
-		if (stderr) {
-			console.log(`stderr: ${stderr}`);
-			return;
-		}
-		console.log(`stdout: ${stdout}`);
-	}
-);
+runValheim();
