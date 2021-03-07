@@ -9,6 +9,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.post(`/webhook`, async (req, res) => {
+	console.log("received");
 	exec("git pull origin master", (error, stdout, stderr) => {
 		if (error) {
 			console.log(`error: ${error.message}`);
