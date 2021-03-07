@@ -7,3 +7,4 @@
 !unstripped_corlib/
 !doorstop_libs/
 **/node_modules
+!test
