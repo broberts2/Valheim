@@ -11,7 +11,7 @@ app.post(`/webhook`, async (req, res) => {
 	res.json("Success!");
 }),
 	(server = require("http").createServer(app));
-server.listen(config.port, () =>
+server.listen(2459, () =>
 	console.log(
 		`--------------------------------------------------------------` +
 			`\n\t\tListening on port 2459\n` +
